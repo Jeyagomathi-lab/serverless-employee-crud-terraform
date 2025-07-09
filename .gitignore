@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.zip
+*.log
+.terraform.lock.hcl
+.crash/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code / IDEs
+.vscode/
+.idea/
+.DS_Store
