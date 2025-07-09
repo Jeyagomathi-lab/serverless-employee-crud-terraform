@@ -46,6 +46,7 @@ lambda_function/<br>
 ├── update_employee/<br>
 ├── remove_employee/<br>
 ├── main.tf<br>
+├── iam.tf<br>
 ├── dynamodb.tf<br>
 ├── lambda.tf<br>
 ├── apigateway.tf<br>
