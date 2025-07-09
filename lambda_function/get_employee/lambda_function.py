@@ -24,6 +24,7 @@ def lambda_handler(event, context):
                 'contact': employee_response.get('contact',{}).get('S', ''),
                 'email': employee_response.get('email',{}).get('S', '')
             }
+            
             return {
                 'statusCode': 200,
                 'body': json.dumps(result)
