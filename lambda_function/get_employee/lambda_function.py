@@ -20,9 +20,9 @@ def lambda_handler(event, context):
             result = {
                 'employee_id': employee_response.get('employee_id',{}).get('S', ''),
                 'employee_name': employee_response.get('employee_name',{}).get('S', ''),
-                'department': employee_response.get('department',{}).get('S', ''),
+                'department_id': employee_response.get('department_id',{}).get('S', ''),
                 'contact': employee_response.get('contact',{}).get('S', ''),
-                'mail': employee_response.get('mail',{}).get('S', '')
+                'email': employee_response.get('email',{}).get('S', '')
             }
             return {
                 'statusCode': 200,
