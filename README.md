@@ -82,3 +82,31 @@ Similarly you can call GET, PUT, DELETE based on employee_id and department_id.
 
 ---
 
+## API Endpoints (Sample)
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST   | `/employee` | Add a new employee |
+| GET    | `/employee?employee_id=...&department_id=...` | Get employee details |
+| PUT    | `/employee?employee_id=...&department_id=...` | Update employee |
+| DELETE | `/employee?employee_id=...&department_id=...` | Remove employee |
+
+---
+
+## Snips from POSTMAN testing
+
+**GET Method**
+![image](https://github.com/user-attachments/assets/77b35403-b5b3-48e5-afaa-05a314e6f970)
+
+**POST Method**
+![image](https://github.com/user-attachments/assets/b8fb3ed0-2184-4150-b630-f028676a743a)
+
+**PUT Method**
+![image](https://github.com/user-attachments/assets/ff7a4746-402f-4810-baa2-ec776079299e)
+
+**DELETE Method**
+![image](https://github.com/user-attachments/assets/1acde684-6176-4692-8e00-05a7dffbf9f4)
+
+
+
+
